@@ -19,7 +19,7 @@ export default function Home() {
 					<h1 className="text-4xl sm:text-5xl font-accent text-black text-shadow mb-8">Vanessa Roycroft</h1>
 					<div className="mb-8 text-silverPink underline text-sm sm:text-base">
 						<a
-							href="http://vanessaroycroft.com/Vanessa_Roycroft_Resume.pdf"
+							href="https://vanessaroycroft.com/Vanessa_Roycroft_Resume.pdf"
 							target="_blank"
 							title="Resume"
 							className="mr-5 sm:mr-8 transition duration-500 ease-in-out hover:text-silverPink-light"
@@ -30,7 +30,7 @@ export default function Home() {
 							<span>Contact</span>
 						</a>
 						<a
-							href="https://github.com/vmroycroft/vanessaroycroft-v3"
+							href="https://github.com/vmroycroft/vanessa-roycroft"
 							target="_blank"
 							title="GitHub"
 							className="transition duration-500 ease-in-out hover:text-silverPink-light"

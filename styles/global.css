@@ -1,33 +1,25 @@
-.text-shadow {
-	text-shadow: 1px 1px 2px #1b1b1b;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+	@apply transition duration-500 ease-in-out hover:text-pink-500;
 }
 
-.background {
-	background: url(/images/background.svg) no-repeat center center;
-	background-size: cover;
+hr {
+	height: 1px;
+	width: 75%;
+	margin: 0 auto;
+	border: 0;
+	@apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
 }
 
-.heartbeat {
-	animation: heartbeat 1s infinite;
+li::marker {
+	@apply text-gray-500;
 }
 
-@keyframes heartbeat {
-	0% {
-		transform: scale(0.9);
-	}
-	20% {
-		transform: scale(1);
-	}
-	40% {
-		transform: scale(0.9);
-	}
-	60% {
-		transform: scale(1);
-	}
-	80% {
-		transform: scale(0.9);
-	}
-	100% {
-		transform: scale(0.9);
-	}
+.text-gradient {
+	@apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

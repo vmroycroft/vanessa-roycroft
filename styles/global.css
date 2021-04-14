@@ -3,15 +3,11 @@
 @tailwind utilities;
 
 a {
-	@apply transition duration-500 ease-in-out hover:text-pink-500;
+	@apply font-mono text-gray-500 text-xs sm:text-sm xl:text-base transition duration-500 ease-in-out hover:text-pink-500;
 }
 
 hr {
-	height: 1px;
-	width: 75%;
-	margin: 0 auto;
-	border: 0;
-	@apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
+	@apply max-w-prose mx-auto h-px border-0 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500;
 }
 
 li::marker {

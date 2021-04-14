@@ -1,11 +1,14 @@
 function Section({ title, className, children }) {
 	return (
-		<section className={`py-20 px-4 ${className}`}>
-			<div className="max-w-prose mx-auto">
-				<h1 className="text-1xl sm:text-3xl xl:text-5xl font-bold mb-4">{title}</h1>
-				<div className="text-sm sm:text-base">{children}</div>
-			</div>
-		</section>
+		<>
+			<hr />
+			<section className={`py-20 ${className}`}>
+				<div className="max-w-prose mx-auto">
+					<h1 className="text-2xl sm:text-4xl xl:text-5xl font-bold mb-6">{title}</h1>
+					<div className="sm:text-lg xl:text-xl">{children}</div>
+				</div>
+			</section>
+		</>
 	);
 }
 
